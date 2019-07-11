@@ -1,0 +1,56 @@
+#header {
+    background: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top: 10px solid #2ecc71;
+}
+
+#header .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#header .textlogo {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header .greentextlogo{
+    color: #2ecc71;
+}
+
+#header h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#header ul{
+    padding-left:0;
+
+}
+#header ul li{
+    display: inline-block;
+}
+
+#header ul li a{
+    font-size: 25px;
+    color: #ebebeb;
+    padding: 7px 5px;
+    
+}
+
+#header i {
+    background-color: #363331;
+    border-radius: 50%;
+    padding: 14px;
+}
+
+#header i:hover{
+    background-color: #2ecc71;
+}
