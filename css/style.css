@@ -85,3 +85,41 @@ section {
     color: #9e9a9a;
     font-size: 12px;
 }
+
+/* Subscribe Section */
+
+#subscribe  {
+    background-color: #e2dede;
+
+}
+
+#subscribe h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #302f2f;
+}
+
+#subscribe p{
+    color: #9e9a9a;
+    font-size: 12px;
+}
+
+.subsciption {
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+.subsciption input {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.subsciption .input-group-btn button {
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
