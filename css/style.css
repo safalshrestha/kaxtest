@@ -122,4 +122,14 @@ section {
     padding: 10px 20px;
     font-size: 14px;
 }
+#subscribe .video{  
+    margin: 0 auto;
+    text-align:center;
+}
 
+/* Social Section */
+
+#social .container .testimonial{
+    text-align: center;
+    padding: 20px 60px;
+}
