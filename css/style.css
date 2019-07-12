@@ -129,7 +129,93 @@ section {
 
 /* Social Section */
 
-#social .container .testimonial{
+
+#social .testimonial p{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#social .testimonial p{
+    font-style: italic;
+}
+
+#social .testimonial h4{
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+#social .container{
     text-align: center;
     padding: 20px 60px;
 }
+
+#social p{
+    color: #9e9a9a;
+    font-size: 12px;
+}
+
+#social h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #302f2f;
+}
+
+#social h4{
+    font-size: 13px;
+    font-weight: 400;
+    color: #302f2f;
+}
+
+#social .container ul li{
+    display: inline-block;
+    padding: 1px;
+}
+
+#social i {
+    background-color: #cac8c8;
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+}
+
+#social i:hover{
+    background-color: #2ecc71;
+}
+
+/* HOVER COLOR NOT IMPLETED 
+.containerimage {
+    position: absolute;
+    width: auto;
+}
+  
+.image {
+    display: block;
+    width: auto;
+    margin: 0px 2px;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: 0px 2px;
+    width: auto;
+    transition: .5s ease;
+    background-color:#2ecc71;
+}
+  
+.containerimage:hover .overlay {
+    opacity: 0.7;
+}
+*/
+
+.person {
+    margin: 0px 2px;
+}
+.person:hover {
+    opacity: 0.7;
+}
+  
